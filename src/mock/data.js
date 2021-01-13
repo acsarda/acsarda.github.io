@@ -9,9 +9,9 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Hello, my name is',
+  title: 'Hello, I am',
   name: 'Augusto.',
-  subtitle: "I'm a Master's degree student.",
+  subtitle: "I'm a Master's Degree student in Engineering.",
   cta: '',
 };
 
@@ -21,45 +21,47 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1QBoFVnjRwUiOONsR3wdaWvJnyyj-wnHL/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'machineSideController.png',
+    title: "Master's thesis",
+    info: "My Master's work focuses on developing control strategies for micro wind generators.",
+    info2: 'The objective is to develop control strategies that allow the system to operate the closest possible to its maximum efficiency point.',
+    info3: 'For this purpose, a 400 W micro wind generator was acquired. Instead of installing it in the open air, a testing facility is proposed, where the generator is coupled to a DC motor, which replicates the wind turbine behavior.',
+    info4: "The starting point for control strategies comes from studying maximum power point tracking techniques and adapting them for the actual system. The testing facility will allow to test and evaluate the different strategies that have been developed. Unfortunately, its construction is delayed because of the COVID-19 pandemic, and the work-flow has been reoriented to computer simulations.",
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'project.jpg',
+  //   title: '',
+  //   info: '',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  // },
+  // {
+  //   id: nanoid(),
+  //   img: 'project.jpg',
+  //   title: '',
+  //   info: '',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'sardaugusto@gmail.com',
 };
 
 // FOOTER DATA

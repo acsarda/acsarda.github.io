@@ -38,10 +38,13 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  {paragraphOne || "I am an Engineering Master's degree student at "}<a href="https://www.ib.edu.ar/">Instituto Balseiro</a>{", in Argentina. I am graduating in July 2021."}
+                  {paragraphOne || "I am a Master's Degree student in Engineering at "}<a href="https://www.ib.edu.ar">Instituo Balseiro</a>{", in Argentina. I am graduating in June 2021."}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphTwo || "My bachelor's degree is in Electro-Mechanical Engineering, at"}<a href="https://www.ing.unlpam.edu.ar/">UNLPam</a>
+                  {paragraphTwo || "I got my bachelor's degree in Electro-Mechanical Engineering, at "}<a href="https://www.ing.unlpam.edu.ar/">UNLPam.</a>
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphThree || ''}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
