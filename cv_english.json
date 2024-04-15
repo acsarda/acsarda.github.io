@@ -34,7 +34,10 @@
       "url": "https://www.invap.com.ar/en/",
       "startDate": "2021",
       "endDate": "2023",
-      "summary": "blabla"
+      "summary": "blabla",
+      "highlights": [
+        "blabla"
+      ]
     }
   ],
   "volunteer": [
