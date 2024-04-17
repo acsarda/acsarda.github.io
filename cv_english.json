@@ -3,10 +3,10 @@
     "name": "Augusto Sardá",
     "label": "Electro-mechanical engineer with experience in Guidance, Navigation and Control and embedded software in microcontrollers. Passionate about solving problems programming. Control systems enthusiastic.",
     "image": "/me.jpg",
-    "email": "sardaugusto@gmail.com",
-    "phone": "+34 688888888",
-    "url": "https://midu.dev",
-    "summary": "+15 years of experience as a web developer. Currently I am a content creator and development dommunicator. I live in Barcelona, Spain. I have worked in different environments: from accelerating the development of start-ups to leading teams in multinational companies.",
+    "email": "sardaugusto[at]gmail[dot]com",
+    "phone": "",
+    "url": "https://acsarda.github.io",
+    "summary": "I am an Electro-mechanical Engineer with an orientation towards industrial automation, with experience in the aerospace industry and a sting in the academy.\n  Previously to join INVAP S.E, I was a Master's student at Balseiro Institute. My Master's project involved developing a testing rig facility where to test and validate control strategies for a micro-wind generator. This involved integrating different hardware components and, mainly, developing the entire embedded software of the microcontroller used. This microcontroller was a STM32F103C8T6 (blue-pill board) and the software was written in C and C++, following the Hardware Abstraction Layer from ST. Different SW components were: (.) ADC inputs for current sensor, implementing DMA. - Timer input for a rotary encoder. (.) Use of timer interruptions. (.) Use of fix-point arithmetic. (.) Implementation of control algorithms. (.) PWM outputs for controlling a three-phase converter. (.) UART communication with a PC for receiving commands and transmitting data. Serial communication in the PC developed in Python.\n\n Also, I developed some functionalities using Test Driven Development, using CppUTest. I am very passionate about SW, developing different personal projects to learn new things and/or try some ideas. For example, a backtesting SW (in Python) to test and validate algorithmic trading strategies. Moreover, I truly enjoy _playing_ with my Raspi and my STM nucleo 144.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -34,9 +34,9 @@
       "url": "https://www.invap.com.ar/en/",
       "startDate": "2021",
       "endDate": "2023",
-      "summary": "blabla",
+      "summary": "I worked for almost two as a Guidance, Navigation and Control (GNC) at INVAP S.E, contributing to its Small-GEO project. My main responsibilities were: (a) Develop analysis tools for the position and differential displacements of the robotic arms (where the electric plasma thrusters are placed) for orbit-raising and station-keeping. I chose to develop such tools in Python due to my proficiency in the language and its speed for developing and validating ideas. (b) Developing flight software and simulator flight software, in C and C++ respectively. I gained experience in writing code following software development standards. Unit testing using GoogleTest.",
       "highlights": [
-        "blabla"
+        "Python, C, C++, Git & Gitlab, GoogleTest"
       ]
     }
   ],
@@ -55,15 +55,27 @@
   ],
   "education": [
     {
-      "institution": "Universitat Oberta de Catalunya",
-      "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Software Engineer",
-      "studyType": "Bachelor",
-      "startDate": "2003-01-01",
-      "endDate": "2009-01-01",
-      "score": "4.0",
+      "institution": "Balseiro Institute",
+      "url": "https://www.ib.edu.ar",
+      "area": "Master in Engineering: Control Project.",
+      "studyType": "Master (thesis pending)",
+      "startDate": "2019-08-01",
+      "endDate": "",
+      "score": "",
       "courses": [
-        "DB1101 - Basic SQL"
+        ""
+      ]
+    },
+    {
+      "institution": "National University of La Pampa - Engineering School",
+      "url": "https://www.ing.unlpam.edu.ar/",
+      "area": "Electro-mechanical Engineering towards an orientation in industrial automation.",
+      "studyType": "Bachelor",
+      "startDate": "2012-02-01",
+      "endDate": "2019-07-01",
+      "score": "",
+      "courses": [
+        ""
       ]
     }
   ],
@@ -94,71 +106,27 @@
   ],
   "skills": [
     {
-      "name": "HTML",
-      "level": "Master",
+      "name": "C",
+      "level": "Professional",
       "keywords": [
-        "Web development",
-        "Frontend"
+        "Embedded systems",
+        "Embedded C"
       ]
     },
     {
-      "name": "CSS",
-      "level": "Master",
-      "keywords": [
-        "Web development",
-        "Frontend",
-        "Diseño Responsive"
-      ]
+      "name": "C++",
+      "level": "Professional",
+      "keywords": []
     },
     {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": [
-        "Web development",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
+      "name": "Python",
+      "level": "Professional",
+      "keywords": []
     },
     {
-      "name": "Tailwind",
-      "level": "Advanced",
-      "keywords": [
-        "Web development",
-        "Frontend",
-        "CSS Framework",
-        "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "level": "Advanced",
-      "keywords": [
-        "Web development",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Advanced",
-      "keywords": [
-        "Web development",
-        "Backend",
-        "JavaScript",
-        "Servidor"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "level": "Advanced",
-      "keywords": [
-        "Bases de Datos",
-        "SQL",
-        "Database",
-        "Backend"
-      ]
+      "name": "Matlab & Simulink",
+      "level": "Professional",
+      "keywords": []
     },
     {
       "name": "Git",
@@ -167,37 +135,6 @@
         "Version control",
         "Colaboración",
         "Source code"
-      ]
-    },
-    {
-      "name": "GitHub",
-      "level": "Advanced",
-      "keywords": [
-        "Version control",
-        "Collaboration",
-        "Source code",
-        "Git"
-      ]
-    },
-    {
-      "name": "Next.js",
-      "level": "Advanced",
-      "keywords": [
-        "Web development",
-        "Frontend",
-        "React Framework",
-        "SSR",
-        "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Advanced",
-      "keywords": [
-        "Web development",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
       ]
     }
   ],
